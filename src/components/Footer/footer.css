@@ -1,0 +1,145 @@
+.footer {
+   height: 160px;
+   background-color: #000;
+   bottom: 0;
+   text-align: center;
+   align-items: center;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   line-height: 2.3;
+}
+
+
+
+.icon-footer {
+   color: #000;
+   bottom: 0;
+   width: 40px;
+   height: 40px;
+   margin-right: 40px;
+   padding: 5px;
+   background: #f3f3f3;
+   border-radius: 1em;
+   margin-top: 20px;
+
+}
+
+.icon2-footer {
+   color: #000;
+   bottom: 0;
+   width: 40px;
+   height: 40px;
+   margin-right: 40px;
+   padding: 5px;
+   background: #f3f3f3;
+   border-radius: 1em;
+   padding-bottom: 0;
+   margin-bottom: 0;
+   margin-top: 20px;
+
+}
+
+.icon3-footer {
+   color: #000;
+   bottom: 0;
+   width: 40px;
+   height: 40px;
+   padding: 5px;
+   background: #f3f3f3;
+   border-radius: 1em;
+   padding-bottom: 0;
+   margin-bottom: 0;
+   margin-top: 20px;
+
+}
+
+/* TEXTO */
+
+.p-footer {
+   padding-top: 16px;
+   color: #f3f3f3;
+   font-weight: 400;
+   letter-spacing: 1px;
+   padding-bottom: 0;
+   margin-bottom: 0;
+}
+
+.p-footer1 {
+   color: #f3f3f3;
+   padding-top: 0;
+   font-weight: 600;
+   letter-spacing: 1px;
+   padding-bottom: 0;
+   margin-bottom: 10px;
+}
+
+
+
+
+@media(max-width:600px){
+
+
+.footer {
+   height: 160px;
+   background-color: #000;
+   bottom: 0;
+   text-align: center;
+   align-items: center;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   line-height: 1.5;
+}
+
+.icon-footer {
+   margin-top: 20px;
+   color: #000;
+   bottom: 0;
+   width: 30px;
+   height: 30px;
+   margin-right: 40px;
+   padding: 5px;
+   background: #f3f3f3;
+   border-radius: 1em;
+
+}
+
+.icon2-footer {
+   color: #000;
+   bottom: 0;
+   width: 30px;
+   height: 30px;
+   margin-right: 40px;
+   padding: 5px;
+   background: #f3f3f3;
+   border-radius: 1em;
+
+}
+
+.icon3-footer {
+   color: #000;
+   bottom: 0;
+   width: 30px;
+   height: 30px;
+   padding: 5px;
+   background: #f3f3f3;
+   border-radius: 1em;
+
+}
+
+/* TEXTO */
+
+.p-footer {
+   padding-top: 6px;
+   color: #f3f3f3;
+   font-weight: 400;
+   letter-spacing: 3px;
+}
+
+.p-footer1 {
+   color: #f3f3f3;
+   font-weight: 600;
+   letter-spacing: 1px;
+}
+
+
+
+
+}

@@ -1,0 +1,1509 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Bowlby+One&family=Bungee&family=Bungee+Shade&family=Edu+TAS+Beginner:wght@400;600&family=Fjalla+One&family=Fugaz+One&family=Inconsolata:wght@300;400;600;900&family=Koulen&family=Lobster&family=Major+Mono+Display&family=Montserrat:wght@100&family=Nabla&family=Nova+Mono&family=Oswald:wght@700&family=Pacifico&family=Passion+One:wght@700&family=Permanent+Marker&family=Poppins:wght@700&family=Press+Start+2P&family=Roboto&family=Squada+One&family=Tapestry&family=Zilla+Slab+Highlight:wght@700&display=swap');
+
+
+
+.contacto {
+   width: 100%;
+   height: 480px;
+   background: #fdbb2e;
+   display: inline-flex;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	 border-top: 1px solid #C1BDB6;
+}
+
+/* CONTACTAME */
+
+.contacto-uno {
+background:  rgb(1, 97, 161);
+width: 38%;
+height: 480px;
+}
+
+.h3-contacto {
+  font-size: 26px;
+  margin: 20px 65px ;
+  color: #f3f3f3;
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 2px;
+
+}
+
+/* ICONO UNO */
+
+.contactame-uno {
+  background: rgb(1, 97, 161);
+  border-radius: 16px;
+  display: inline-flex;
+  padding: 35px 20px; 
+  padding-right: 50px; 
+  margin: 1px 20px;
+  margin-bottom: 7px;
+  margin-left: 100px;
+  border: 1px #f3f3f3 solid;
+  color: #f3f3f3;
+}
+
+
+.bi-geo-alt {
+  font-size: 30px;
+  padding-left: 20px;
+}
+
+.p-contacto {
+  float: right;
+  padding-left: 5px;
+  padding-top: 5px;
+  font-weight: 100;
+  font-size: 18px;
+  font-family: 'Anton', sans-serif;
+  
+}
+
+
+/* ICONO DOS */
+
+.contactame-dos {
+  background: rgb(1, 97, 161);
+  border-radius: 16px;
+  display: inline-flex;
+  padding: 35px 20px;  
+  margin: 10px 20px;
+  margin-bottom: 7px;
+  margin-left: 100px;
+  border: 1px #f3f3f3 solid;
+  padding-right: 1px; 
+  color: #f3f3f3;
+}
+
+
+
+.bi-envelope {
+  font-size: 30px;
+   margin-left: -10px;
+}
+
+.p-contacto2 {
+  float: right;
+  font-weight: 400;
+  font-size: 18px;
+  padding-left: 5px;
+  padding-right: 7px;
+  padding-top: 5px;
+  font-family: 'Anton', sans-serif;
+}
+
+/* ICONO TRES */
+
+.contactame-tres {
+  background: rgb(1, 97, 161);
+  border-radius: 16px;
+  display: inline-flex;
+  padding: 35px 20px;  
+  margin: 10px 20px;
+  margin-left: 100px;
+  border: 1px #f3f3f3 solid;
+  padding-right: 47px; 
+   color: #f3f3f3;
+}
+
+
+
+.bi-whatsapp {
+  font-size: 30px;
+  padding-left: 23px;
+}
+
+
+.p-contacto3 {
+  float: right;
+  font-weight: 400;
+  font-size: 18px;
+  padding-top: 5px;
+  padding-left: 12px;
+  font-family: 'Anton', sans-serif;
+}
+
+
+
+
+
+/* FORMULARIO */
+
+.formulario {
+   background: white;
+   width: 62%;
+   height: 480px;
+   text-align: center;
+
+}
+
+.h3-contacto2 {
+  font-size: 30px;
+  margin: 20px 0 ;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+
+form {
+  margin-top: -400px;
+  flex-direction: column;
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+input {
+  padding: 10px;
+  margin-bottom: 12px;
+  border-radius: 2px;
+  border: none;
+   box-shadow: 1px 2px 10px 0 #696969;
+}
+
+input[type=text] {
+   padding: 15px;
+   font-size: 14px;
+}
+
+input:focus {
+  outline-color: rgb(1, 97, 161);
+}
+
+textarea[type=mensaje] {
+   padding: 10px;
+   font-size: 16px;
+}
+
+
+textarea {
+  resize: none;
+  height: 180px;
+  border-radius: 2px;
+  border: none;
+   box-shadow: 1px 2px 10px 0 #696969;
+
+}
+
+textarea:focus {
+  outline-color: rgb(1, 97, 161);
+}
+
+.btn-contacto {
+   margin-top: 25px;
+   padding: 15px 70px;
+   background: white;
+   border-radius: 6px;
+   border: 2px solid rgb(1, 97, 161);
+   color: rgb(1, 97, 161);
+   margin-left: -400px;
+   font-size: 14px;
+   text-transform: uppercase;
+   font-family: 'Poppins', sans-serif;
+}
+
+.btn-contacto:hover {
+  text-decoration: underline;
+  cursor: pointer;
+
+}
+
+
+
+
+
+
+
+
+@media(max-width:1290px) {
+
+.contacto {
+   width: 100%;
+   height: 520px;
+   background: #fdbb2e;
+   display: inline-flex;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	 border-top: 1px solid #C1BDB6;
+}
+
+/* CONTACTAME */
+
+.contacto-uno {
+background:  rgb(1, 97, 161);
+width: 38%;
+height: 520px;
+}
+
+.h3-contacto {
+  font-size: 26px;
+  margin: 20px 25px ;
+  color: #f3f3f3;
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 2px;
+
+}
+
+/* ICONO UNO */
+
+.contactame-uno {
+  background: rgb(1, 97, 161);
+  border-radius: 16px;
+  display: inline-flex;
+  padding: 35px 20px; 
+  padding-right: 50px; 
+  margin: 1px 20px;
+  margin-bottom: 7px;
+  margin-left: 80px;
+  border: 1px #f3f3f3 solid;
+  color: #f3f3f3;
+}
+
+
+.bi-geo-alt {
+  font-size: 30px;
+  padding-left: 20px;
+}
+
+.p-contacto {
+  float: right;
+  padding-left: 5px;
+  padding-top: 5px;
+  font-weight: 100;
+  font-size: 18px;
+  font-family: 'Anton', sans-serif;
+  
+}
+
+
+/* ICONO DOS */
+
+.contactame-dos {
+  background: rgb(1, 97, 161);
+  border-radius: 16px;
+  display: inline-flex;
+  padding: 35px 20px;  
+  margin: 10px 20px;
+  margin-bottom: 7px;
+  margin-left: 80px;
+  border: 1px #f3f3f3 solid;
+  padding-right: 1px; 
+  color: #f3f3f3;
+}
+
+
+
+.bi-envelope {
+  font-size: 30px;
+   margin-left: -10px;
+}
+
+.p-contacto2 {
+  float: right;
+  font-weight: 400;
+  font-size: 18px;
+  padding-left: 5px;
+  padding-right: 7px;
+  padding-top: 5px;
+  font-family: 'Anton', sans-serif;
+}
+
+/* ICONO TRES */
+
+.contactame-tres {
+  background: rgb(1, 97, 161);
+  border-radius: 16px;
+  display: inline-flex;
+  padding: 35px 20px;  
+  margin: 10px 20px;
+  margin-left: 80px;
+  border: 1px #f3f3f3 solid;
+  padding-right: 47px; 
+   color: #f3f3f3;
+}
+
+
+
+.bi-whatsapp {
+  font-size: 30px;
+  padding-left: 23px;
+}
+
+
+.p-contacto3 {
+  float: right;
+  font-weight: 400;
+  font-size: 18px;
+  padding-top: 5px;
+  padding-left: 12px;
+  font-family: 'Anton', sans-serif;
+}
+
+
+
+
+
+/* FORMULARIO */
+
+.formulario {
+   background: white;
+   width: 62%;
+   height: 520px;
+   text-align: center;
+
+}
+
+.h3-contacto2 {
+  font-size: 30px;
+  margin: 20px 0 ;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+
+form {
+  margin-top: -400px;
+  flex-direction: column;
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+input {
+  padding: 10px;
+  margin-bottom: 12px;
+  border-radius: 2px;
+  border: none;
+   box-shadow: 1px 2px 10px 0 #696969;
+}
+
+input[type=text] {
+   padding: 15px;
+   font-size: 14px;
+}
+
+input:focus {
+  outline-color: rgb(1, 97, 161);
+}
+
+textarea[type=mensaje] {
+   padding: 10px;
+   font-size: 16px;
+}
+
+
+textarea {
+  resize: none;
+  height: 180px;
+  border-radius: 2px;
+  border: none;
+   box-shadow: 1px 2px 10px 0 #696969;
+
+}
+
+textarea:focus {
+  outline-color: rgb(1, 97, 161);
+}
+
+.btn-contacto {
+   margin-top: 25px;
+   padding: 15px 70px;
+   background: white;
+   border-radius: 6px;
+   border: 2px solid rgb(1, 97, 161);
+   color: rgb(1, 97, 161);
+   margin-left: -150px;
+   font-size: 14px;
+   text-transform: uppercase;
+   font-family: 'Poppins', sans-serif;
+}
+
+.btn-contacto:hover {
+  text-decoration: underline;
+  cursor: pointer;
+
+}
+
+
+}
+
+
+
+
+
+
+@media(max-width:1100px) {
+
+.contacto {
+   width: 100%;
+   height: 520px;
+   background: #fdbb2e;
+   display: inline-flex;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	 border-top: 1px solid #C1BDB6;
+}
+
+/* CONTACTAME */
+
+.contacto-uno {
+background:  rgb(1, 97, 161);
+width: 38%;
+height: 520px;
+}
+
+.h3-contacto {
+  font-size: 26px;
+  margin: 20px 65px ;
+  color: #f3f3f3;
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 2px;
+
+}
+
+/* ICONO UNO */
+
+.contactame-uno {
+  background: rgb(1, 97, 161);
+  border-radius: 16px;
+  display: inline-flex;
+  padding: 35px 20px; 
+  padding-right: 50px; 
+  margin: 1px 20px;
+  margin-bottom: 7px;
+  margin-left: 20px;
+  border: 1px #f3f3f3 solid;
+  color: #f3f3f3;
+}
+
+
+.bi-geo-alt {
+  font-size: 30px;
+  padding-left: 20px;
+}
+
+.p-contacto {
+  float: right;
+  padding-left: 5px;
+  padding-top: 5px;
+  font-weight: 100;
+  font-size: 18px;
+  font-family: 'Anton', sans-serif;
+  
+}
+
+
+/* ICONO DOS */
+
+.contactame-dos {
+  background: rgb(1, 97, 161);
+  border-radius: 16px;
+  display: inline-flex;
+  padding: 35px 20px;  
+  margin: 10px 20px;
+  margin-bottom: 7px;
+  margin-left: 20px;
+  border: 1px #f3f3f3 solid;
+  padding-right: 1px; 
+  color: #f3f3f3;
+}
+
+
+
+.bi-envelope {
+  font-size: 30px;
+   margin-left: -10px;
+}
+
+.p-contacto2 {
+  float: right;
+  font-weight: 400;
+  font-size: 18px;
+  padding-left: 5px;
+  padding-right: 7px;
+  padding-top: 5px;
+  font-family: 'Anton', sans-serif;
+}
+
+/* ICONO TRES */
+
+.contactame-tres {
+  background: rgb(1, 97, 161);
+  border-radius: 16px;
+  display: inline-flex;
+  padding: 35px 20px;  
+  margin: 10px 20px;
+  margin-left: 20px;
+  border: 1px #f3f3f3 solid;
+  padding-right: 47px; 
+   color: #f3f3f3;
+}
+
+
+
+.bi-whatsapp {
+  font-size: 30px;
+  padding-left: 23px;
+}
+
+
+.p-contacto3 {
+  float: right;
+  font-weight: 400;
+  font-size: 18px;
+  padding-top: 5px;
+  padding-left: 12px;
+  font-family: 'Anton', sans-serif;
+}
+
+
+
+
+
+/* FORMULARIO */
+
+.formulario {
+   background: white;
+   width: 62%;
+   height: 520px;
+   text-align: center;
+
+}
+
+.h3-contacto2 {
+  font-size: 30px;
+  margin: 20px 0 ;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+
+form {
+  margin-top: -400px;
+  flex-direction: column;
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+input {
+  padding: 10px;
+  margin-bottom: 12px;
+  border-radius: 2px;
+  border: none;
+   box-shadow: 1px 2px 10px 0 #696969;
+}
+
+input[type=text] {
+   padding: 15px;
+   font-size: 14px;
+}
+
+input:focus {
+  outline-color: rgb(1, 97, 161);
+}
+
+textarea[type=mensaje] {
+   padding: 10px;
+   font-size: 16px;
+}
+
+
+textarea {
+  resize: none;
+  height: 180px;
+  border-radius: 2px;
+  border: none;
+   box-shadow: 1px 2px 10px 0 #696969;
+
+}
+
+textarea:focus {
+  outline-color: rgb(1, 97, 161);
+}
+
+.btn-contacto {
+   margin-top: 25px;
+   padding: 15px 70px;
+   background: white;
+   border-radius: 6px;
+   border: 2px solid rgb(1, 97, 161);
+   color: rgb(1, 97, 161);
+   margin-left: -150px;
+   font-size: 14px;
+   text-transform: uppercase;
+   font-family: 'Poppins', sans-serif;
+}
+
+.btn-contacto:hover {
+  text-decoration: underline;
+  cursor: pointer;
+
+}
+
+
+}
+
+
+
+@media(max-width:770px) {
+
+.contacto {
+   width: 100%;
+   height: 520px;
+   background: #fdbb2e;
+   display: inline-flex;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	 border-top: 1px solid #C1BDB6;
+}
+
+/* CONTACTAME */
+
+.contacto-uno {
+background:  rgb(1, 97, 161);
+width: 38%;
+height: 520px;
+}
+
+.h3-contacto {
+  font-size: 26px;
+  margin: 20px 65px ;
+  color: #f3f3f3;
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 2px;
+
+}
+
+/* ICONO UNO */
+
+.contactame-uno {
+  background: rgb(1, 97, 161);
+  border-radius: 16px;
+  display: inline-flex;
+  padding: 35px 20px; 
+  padding-right: 30px; 
+  margin: 1px 20px;
+  margin-bottom: 7px;
+  margin-left: 10px;
+  border: 1px #f3f3f3 solid;
+  color: #f3f3f3;
+}
+
+
+.bi-geo-alt {
+  font-size: 30px;
+  padding-left: 20px;
+}
+
+.p-contacto {
+  float: right;
+  padding-left: 5px;
+  padding-top: 5px;
+  font-weight: 100;
+  font-size: 18px;
+  font-family: 'Anton', sans-serif;
+  
+}
+
+
+/* ICONO DOS */
+
+.contactame-dos {
+  background: rgb(1, 97, 161);
+  border-radius: 16px;
+  display: inline-flex;
+  padding: 35px 20px;  
+  margin: 10px 20px;
+  margin-bottom: 7px;
+  margin-left: 10px;
+  border: 1px #f3f3f3 solid;
+  padding-right: 1px; 
+  color: #f3f3f3;
+}
+
+
+
+.bi-envelope {
+  font-size: 30px;
+   margin-left: -10px;
+}
+
+.p-contacto2 {
+  float: right;
+  font-weight: 400;
+  font-size: 18px;
+  padding-left: 5px;
+  padding-right: 7px;
+  padding-top: 5px;
+  font-family: 'Anton', sans-serif;
+}
+
+/* ICONO TRES */
+
+.contactame-tres {
+  background: rgb(1, 97, 161);
+  border-radius: 16px;
+  display: inline-flex;
+  padding: 35px 20px;  
+  margin: 10px 20px;
+  margin-left: 10px;
+  border: 1px #f3f3f3 solid;
+  padding-right: 37px; 
+   color: #f3f3f3;
+}
+
+
+
+.bi-whatsapp {
+  font-size: 30px;
+  padding-left: 23px;
+}
+
+
+.p-contacto3 {
+  float: right;
+  font-weight: 400;
+  font-size: 18px;
+  padding-top: 5px;
+  padding-left: 12px;
+  font-family: 'Anton', sans-serif;
+}
+
+
+
+
+
+/* FORMULARIO */
+
+.formulario {
+   background: white;
+   width: 62%;
+   height: 520px;
+   text-align: center;
+
+}
+
+.h3-contacto2 {
+  font-size: 30px;
+  margin: 20px 0 ;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+
+form {
+  margin-top: -400px;
+  flex-direction: column;
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+input {
+  padding: 10px;
+  margin-bottom: 12px;
+  border-radius: 2px;
+  border: none;
+   box-shadow: 1px 2px 10px 0 #696969;
+}
+
+input[type=text] {
+   padding: 15px;
+   font-size: 14px;
+}
+
+input:focus {
+  outline-color: rgb(1, 97, 161);
+}
+
+textarea[type=mensaje] {
+   padding: 10px;
+   font-size: 16px;
+}
+
+
+textarea {
+  resize: none;
+  height: 180px;
+  border-radius: 2px;
+  border: none;
+   box-shadow: 1px 2px 10px 0 #696969;
+
+}
+
+textarea:focus {
+  outline-color: rgb(1, 97, 161);
+}
+
+.btn-contacto {
+   margin-top: 25px;
+   padding: 15px 70px;
+   background: white;
+   border-radius: 6px;
+   border: 2px solid rgb(1, 97, 161);
+   color: rgb(1, 97, 161);
+   margin-left: -150px;
+   font-size: 14px;
+   text-transform: uppercase;
+   font-family: 'Poppins', sans-serif;
+}
+
+.btn-contacto:hover {
+  text-decoration: underline;
+  cursor: pointer;
+
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+@media(max-width:600px){
+
+ 
+.contacto {
+   width: 100%;
+   height: 1120px;
+   flex-direction: column-reverse;
+   background: #fff;
+}
+
+
+
+/* FORMULARIO */
+
+.formulario {
+   background: white;
+   width: 100%;
+   height: 510px;
+   text-align: center;
+   align-items: center;
+
+}
+
+.h3-contacto2 {
+  font-size: 30px;
+  margin: 20px 0 ;
+}
+
+
+form {
+  margin-top: -400px;
+  flex-direction: column;
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+input {
+  padding: 10px;
+  margin-bottom: 12px;
+  border-radius: 2px;
+  border: none;
+   box-shadow: 1px 2px 10px 0 #696969;
+}
+
+input[type=text] {
+   padding: 15px;
+   font-size: 14px;
+}
+
+input:focus {
+  outline-color: rgb(1, 97, 161);
+}
+
+textarea[type=mensaje] {
+   padding: 10px;
+   font-size: 16px;
+}
+
+
+textarea {
+  resize: none;
+  height: 140px;
+  border-radius: 2px;
+  border: none;
+   box-shadow: 1px 2px 10px 0 #696969;
+
+}
+
+textarea:focus {
+  outline-color: rgb(1, 97, 161);
+}
+
+.btn-contacto {
+   margin-top: 25px;
+   padding: 20px 70px;
+   background: white;
+   border-radius: 6px;
+   border: 2px solid rgb(1, 97, 161);
+   color: rgb(1, 97, 161);
+   font-size: 16px;
+   text-transform: uppercase;
+   text-align: center;
+   align-items: center;
+   margin-left: -15px;
+   width: 300px;
+   margin-bottom: 15px;
+}
+
+.btn-contacto:active {
+   text-decoration: underline;
+}
+
+
+
+
+
+
+/* CONTACTAME */
+
+.contacto-uno {
+background:  rgb(1, 97, 161);
+width: 100%;
+height: 610px;
+text-align: center;
+align-items: center;
+margin-top: 0;
+}
+
+.h3-contacto {
+  font-size: 30px;
+  margin: 0 ;
+  color: #f3f3f3;
+  padding: 25px 0px;
+}
+
+/* ICONO UNO */
+
+.contactame-uno {
+  background: rgb(1, 97, 161);
+  border-radius: 16px;
+  display: inline-flex;
+  padding: 35px 20px; 
+  padding-right: 50px; 
+  margin: 1px 20px;
+  margin-bottom: 27px;
+  margin-left: 10px;
+  border: 1px #f3f3f3 solid;
+  color: #f3f3f3;
+}
+
+
+.bi-geo-alt {
+  font-size: 30px;
+  padding-left: 20px;
+}
+
+.p-contacto {
+  float: right;
+  padding-left: 5px;
+  padding-top: 5px;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+
+/* ICONO DOS */
+
+.contactame-dos {
+  background: rgb(1, 97, 161);
+  border-radius: 16px;
+  display: inline-flex;
+  padding: 35px 20px;  
+  margin: 10px 20px;
+  margin-bottom: 27px;
+  margin-left: 10px;
+  border: 1px #f3f3f3 solid;
+  padding-right: 1px; 
+   color: #f3f3f3;
+}
+
+
+
+.bi-envelope {
+  font-size: 30px;
+   margin-left: -10px;
+}
+
+.p-contacto2 {
+  float: right;
+  font-weight: 400;
+  font-size: 18px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+}
+
+/* ICONO TRES */
+
+.contactame-tres {
+  background: rgb(1, 97, 161);
+  border-radius: 16px;
+  display: inline-flex;
+  padding: 35px 20px;  
+  margin: 10px 20px;
+  margin-left: 10px;
+  border: 1px #f3f3f3 solid;
+  padding-right: 51px; 
+   color: #f3f3f3;
+}
+
+
+
+.bi-whatsapp {
+  font-size: 30px;
+  padding-left: 23px;
+}
+
+
+.p-contacto3 {
+  float: right;
+  font-weight: 400;
+  font-size: 18px;
+  padding-top: 5px;
+  padding-left: 12px;
+}
+
+
+}
+
+
+
+
+@media(max-width:300px){
+
+ 
+.contacto {
+   width: 100%;
+   height: 1220px;
+   flex-direction: column-reverse;
+   background: #fff;
+}
+
+
+
+/* FORMULARIO */
+
+.formulario {
+   background: white;
+   width: 100%;
+   height: 510px;
+   text-align: center;
+   align-items: center;
+
+}
+
+.h3-contacto2 {
+  font-size: 30px;
+  margin: 20px 0 ;
+}
+
+
+form {
+  margin-top: -400px;
+  flex-direction: column;
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+input {
+  padding: 10px;
+  margin-bottom: 12px;
+  border-radius: 2px;
+  border: none;
+   box-shadow: 1px 2px 10px 0 #696969;
+}
+
+input[type=text] {
+   padding: 15px;
+   font-size: 14px;
+}
+
+input:focus {
+  outline-color: rgb(1, 97, 161);
+}
+
+textarea[type=mensaje] {
+   padding: 10px;
+   font-size: 16px;
+}
+
+
+textarea {
+  resize: none;
+  height: 140px;
+  border-radius: 2px;
+  border: none;
+   box-shadow: 1px 2px 10px 0 #696969;
+
+}
+
+textarea:focus {
+  outline-color: rgb(1, 97, 161);
+}
+
+.btn-contacto {
+   margin-top: 25px;
+   padding: 20px 70px;
+   background: white;
+   border-radius: 6px;
+   border: 2px solid rgb(1, 97, 161);
+   color: rgb(1, 97, 161);
+   font-size: 16px;
+   text-transform: uppercase;
+   text-align: center;
+   align-items: center;
+   margin-left: -15px;
+   width: 200px;
+   margin-bottom: 15px;
+}
+
+.btn-contacto:active {
+   text-decoration: underline;
+}
+
+
+
+
+
+
+/* CONTACTAME */
+
+.contacto-uno {
+background:  rgb(1, 97, 161);
+width: 100%;
+height: 710px;
+text-align: center;
+align-items: center;
+margin-top: 0;
+}
+
+.h3-contacto {
+  font-size: 30px;
+  margin: 0 ;
+  color: #f3f3f3;
+  padding: 25px 0px;
+}
+
+/* ICONO UNO */
+
+.contactame-uno {
+  background: rgb(1, 97, 161);
+  border-radius: 16px;
+  display: inline-flex;
+  padding: 35px 20px; 
+  padding-right: 50px; 
+  margin: 1px 20px;
+  margin-bottom: 27px;
+  margin-left: 10px;
+  border: 1px #f3f3f3 solid;
+  color: #f3f3f3;
+}
+
+
+.bi-geo-alt {
+  font-size: 30px;
+  padding-left: 20px;
+}
+
+.p-contacto {
+  float: right;
+  padding-left: 5px;
+  padding-top: 5px;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+
+/* ICONO DOS */
+
+.contactame-dos {
+  background: rgb(1, 97, 161);
+  border-radius: 16px;
+  display: inline-flex;
+  padding: 35px 20px;  
+  margin: 10px 20px;
+  margin-bottom: 27px;
+  margin-left: 10px;
+  border: 1px #f3f3f3 solid;
+  padding-right: 1px; 
+   color: #f3f3f3;
+}
+
+
+
+.bi-envelope {
+  font-size: 30px;
+   margin-left: -10px;
+}
+
+.p-contacto2 {
+  float: right;
+  font-weight: 400;
+  font-size: 18px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+}
+
+/* ICONO TRES */
+
+.contactame-tres {
+  background: rgb(1, 97, 161);
+  border-radius: 16px;
+  display: inline-flex;
+  padding: 35px 20px;  
+  margin: 10px 20px;
+  margin-left: 10px;
+  border: 1px #f3f3f3 solid;
+  padding-right: 51px; 
+   color: #f3f3f3;
+}
+
+
+
+.bi-whatsapp {
+  font-size: 30px;
+  padding-left: 23px;
+}
+
+
+.p-contacto3 {
+  float: right;
+  font-weight: 400;
+  font-size: 18px;
+  padding-top: 5px;
+  padding-left: 12px;
+}
+
+
+}
+
+
+
+
+@media(max-width:282px){
+
+ 
+.contacto {
+   width: 100%;
+   height: 1120px;
+   flex-direction: column-reverse;
+   background: #fff;
+}
+
+
+
+/* FORMULARIO */
+
+.formulario {
+   background: white;
+   width: 100%;
+   height: 510px;
+   text-align: center;
+   align-items: center;
+
+}
+
+.h3-contacto2 {
+  font-size: 30px;
+  margin: 20px 0 ;
+}
+
+
+form {
+  margin-top: -400px;
+  flex-direction: column;
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+input {
+  padding: 10px;
+  margin-bottom: 12px;
+  border-radius: 2px;
+  border: none;
+   box-shadow: 1px 2px 10px 0 #696969;
+}
+
+input[type=text] {
+   padding: 15px;
+   font-size: 14px;
+}
+
+input:focus {
+  outline-color: rgb(1, 97, 161);
+}
+
+textarea[type=mensaje] {
+   padding: 10px;
+   font-size: 16px;
+}
+
+
+textarea {
+  resize: none;
+  height: 140px;
+  border-radius: 2px;
+  border: none;
+   box-shadow: 1px 2px 10px 0 #696969;
+
+}
+
+textarea:focus {
+  outline-color: rgb(1, 97, 161);
+}
+
+.btn-contacto {
+   margin-top: 25px;
+   padding: 20px 70px;
+   background: white;
+   border-radius: 6px;
+   border: 2px solid rgb(1, 97, 161);
+   color: rgb(1, 97, 161);
+   font-size: 16px;
+   text-transform: uppercase;
+   text-align: center;
+   align-items: center;
+   margin-left: -15px;
+   width: 200px;
+   margin-bottom: 15px;
+}
+
+.btn-contacto:active {
+   text-decoration: underline;
+}
+
+
+
+
+
+
+/* CONTACTAME */
+
+.contacto-uno {
+background:  rgb(1, 97, 161);
+width: 100%;
+height: 610px;
+text-align: center;
+align-items: center;
+margin-top: 0;
+}
+
+.h3-contacto {
+  font-size: 30px;
+  margin: 0 ;
+  color: #f3f3f3;
+  padding: 25px 0px;
+}
+
+/* ICONO UNO */
+
+.contactame-uno {
+  background: rgb(1, 97, 161);
+  border-radius: 16px;
+  display: inline-flex;
+  padding: 35px 20px; 
+  padding-left: 20px;
+  padding-right: 25px; 
+  margin: 1px 20px;
+  margin-bottom: 27px;
+  margin-left: 10px;
+  border: 1px #f3f3f3 solid;
+  color: #f3f3f3;
+}
+
+
+.bi-geo-alt {
+  font-size: 30px;
+  padding-left: 20px;
+}
+
+.p-contacto {
+  float: right;
+  padding-left: 5px;
+  padding-top: 5px;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+
+/* ICONO DOS */
+
+.contactame-dos {
+  background: rgb(1, 97, 161);
+  border-radius: 16px;
+  display: inline-flex;
+  padding: 35px 20px;  
+  margin: 10px 20px;
+  margin-bottom: 27px;
+  margin-left: 10px;
+  margin-right: 0px;
+  border: 1px #f3f3f3 solid;
+  padding-right: 1px; 
+   color: #f3f3f3;
+}
+
+
+
+.bi-envelope {
+  font-size: 30px;
+   margin-left: -10px;
+}
+
+.p-contacto2 {
+  float: right;
+  font-weight: 400;
+  font-size: 18px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+}
+
+/* ICONO TRES */
+
+.contactame-tres {
+  background: rgb(1, 97, 161);
+  border-radius: 16px;
+  display: inline-flex;
+  padding: 35px 10px;  
+  margin: 10px 20px;
+  margin-left: 10px;
+  border: 1px #f3f3f3 solid;
+  padding-right: 11px; 
+   color: #f3f3f3;
+}
+
+
+
+.bi-whatsapp {
+  font-size: 30px;
+  padding-left: 23px;
+}
+
+
+.p-contacto3 {
+  float: right;
+  font-weight: 400;
+  font-size: 18px;
+  padding-top: 5px;
+  padding-left: 12px;
+}
+
+
+}
